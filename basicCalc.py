@@ -5,7 +5,12 @@ def add(x, y):
 # Esta funcion resta dos numeros
 def subtract(x, y):
    return x - y
-
+# Esta funcion multiplica dos numeros
+def multiply(x, y):
+   return x * y
+# sta funcion divide dos numeros
+def divide(x, y):
+   return x / y
 print("Seleccion operacion")
 print("1.Suma")
 print("2.Resta")
@@ -20,10 +25,10 @@ if choice == '1':
 elif choice == '2':
    print(num1,"-",num2,"=", subtract(num1,num2))
 elif choice == '3':
-   #print(num1,"*",num2,"=", multiply(num1,num2))
-   print("Proximamente")
+   print(num1,"*",num2,"=", multiply(num1,num2))
+   #print("Proximamente")
 elif choice == '4':
-   #print(num1,"/",num2,"=", divide(num1,num2))
-   print("Proximamente")
+   print(num1,"/",num2,"=", divide(num1,num2))
+   #print("Proximamente")
 else:
    print("Entrada no reconocida")

@@ -8,9 +8,13 @@ def subtract(x, y):
 # Esta funcion multiplica dos numeros
 def multiply(x, y):
    return x * y
-# sta funcion divide dos numeros
+# Esta funcion divide dos numeros
 def divide(x, y):
    return x / y
+# Esta función eleva a un exponente
+def elevate(x,y):
+   return x**y
+# Esta funcion realiza la raiz de un numero
 def esquareroot(x):
    return math.sqrt(x)
 print("Seleccion operacion")
@@ -37,10 +41,7 @@ elif choice == '4':
    #print("Proximamente")
 elif choice == '5':
    print(num1,"^",num2,"=", elevate(num1,num2))
-   #print("Proximamente")
 elif choice == '6':
    print("√",num1,"=", esquareroot(num1))
-   #print("Proximamente")
-
 else:
-   print("Entrada no reconocida")
+   print("Entrada no reconocida o encontrada")

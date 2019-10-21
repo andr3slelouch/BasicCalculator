@@ -11,8 +11,6 @@ def multiply(x, y):
 # sta funcion divide dos numeros
 def divide(x, y):
    return x / y
-def elevate(x,y):
-   return x**y
 print("Seleccion operacion")
 print("1.Suma")
 print("2.Resta")
@@ -33,8 +31,5 @@ elif choice == '3':
 elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2))
    #print("Proximamente")
-elif choice == '5':
-   print(num1,"^",num2,"=", (num1,num2))
-   #print("Proximamente")   
 else:
    print("Entrada no reconocida")

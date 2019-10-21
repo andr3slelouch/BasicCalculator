@@ -24,7 +24,7 @@ print("6.Raiz Cuadrada")
 choice = input("Ingrese selección(1/2/3/4):")
 num1 = int(input("Ingrese el primer número: "))
 if choice != '6':
-num2 = int(input("Ingrese el segundo número: "))
+   num2 = int(input("Ingrese el segundo número: "))
 if choice == '1':
    print(num1,"+",num2,"=", add(num1,num2))
 elif choice == '2':

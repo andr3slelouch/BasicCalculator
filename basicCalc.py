@@ -35,8 +35,12 @@ elif choice == '3':
 elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2))
    #print("Proximamente")
+elif choice == '5':
+   print(num1,"^",num2,"=", elevate(num1,num2))
+   #print("Proximamente")
 elif choice == '6':
    print("√",num1,"=", esquareroot(num1))
    #print("Proximamente")
+
 else:
    print("Entrada no reconocida")

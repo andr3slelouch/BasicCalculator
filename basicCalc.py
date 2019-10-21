@@ -17,9 +17,11 @@ print("2.Resta")
 print("3.Multiplicación")
 print("4.División")
 print("5.Exponente")
+print("6.Raiz Cuadrada")
 # Tomar entrada
 choice = input("Ingrese selección(1/2/3/4):")
 num1 = int(input("Ingrese el primer número: "))
+if choice != '6':
 num2 = int(input("Ingrese el segundo número: "))
 if choice == '1':
    print(num1,"+",num2,"=", add(num1,num2))
@@ -30,6 +32,9 @@ elif choice == '3':
    #print("Proximamente")
 elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2))
+   #print("Proximamente")
+elif choice == '6':
+   print("√",num1,"=", esquareroot(num1))
    #print("Proximamente")
 else:
    print("Entrada no reconocida")

@@ -45,3 +45,5 @@ elif choice == '6':
    print("√",num1,"=", esquareroot(num1))
 else:
    print("Entrada no reconocida")
+
+   #JAIRO RENE SIMBAÑA
